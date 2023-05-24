@@ -23,8 +23,6 @@ public class trapping_rainwater {
             trappedwater += waterlevel - height[i];
 
         }
-        //waterLevel= min( leftmax bound, rightmax bound)
-        //trapped water=waterLevel - height[i]
         return trappedwater;
     }
     public static void main(String[] args) {
